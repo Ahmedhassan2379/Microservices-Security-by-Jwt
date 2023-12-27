@@ -35,7 +35,14 @@
         }
       ],
       "UpstreamPathTemplate": "/con/{id}",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "RateLimitOptions"{
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Limit": 1,
+        "Period": "60s",
+        "PeriodTimespan": 60
+      }
     }
   ]
 }

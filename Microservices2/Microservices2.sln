@@ -27,9 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversationApi.Models", "Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversationApi.Services", "ReversationMicroservice\ReversationApi.Services\ReversationApi.Services.csproj", "{DABEBA15-DCCA-4E64-9510-CD1D11FADFEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth", "JwtAuth\JwtAuth.csproj", "{6FEE471F-DFC1-4F33-8BDC-2DB23089DCF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuth", "JwtAuth\JwtAuth.csproj", "{6FEE471F-DFC1-4F33-8BDC-2DB23089DCF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthenticateWebApi", "JwtAuthenticateWebApi\JwtAuthenticateWebApi.csproj", "{074C72CD-E579-4FA2-9E78-3781CA28189A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthenticateWebApi", "JwtAuthenticateWebApi\JwtAuthenticateWebApi.csproj", "{074C72CD-E579-4FA2-9E78-3781CA28189A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
